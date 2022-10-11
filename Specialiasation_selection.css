@@ -1,0 +1,72 @@
+.Header {
+    background-color: dodgerblue;
+    margin-bottom: 0px;
+
+}
+
+#Header-comp {
+    text-align: center;
+    height:55px;
+}
+
+#Header-Title {
+    /* float: left; */
+    display: inline;
+    margin-left: auto;
+    text-align: center;
+    /* margin: 0; */
+}
+
+#Header-icon {
+    float: right;
+    width: 100px;
+}
+
+.menu-bar {
+    background-color: royalblue;
+    margin-top: -16px;
+    margin-bottom: 80px;
+}
+
+#menu_text{
+    text-align: center;
+    margin-left: 180px;
+}
+.Header-menu-link {
+    list-style: none;
+    display: inline;
+    margin-right: 300px;
+}
+
+.semester-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#sem1 {
+    border-right: 2px solid black;
+}
+
+.course-block {
+    background-color: darkgray;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-right: 50px;
+    padding-bottom: 15px;
+}
+
+#submit_button{
+    display: inline-block;
+    background-color: royalblue;
+        width: 80px;
+        height: 30px;
+        border: 2px solid gray;
+        float: right;
+        color: aliceblue;
+        margin-right: 500px;
+        text-align: center;
+        padding-top: 10px;
+
+}
