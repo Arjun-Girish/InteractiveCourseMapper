@@ -1,0 +1,28 @@
+.hero-container{
+    max-width: 100%;
+    background-color: white;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-modal{
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+}
+
+.modal{
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay{
+    background: rgba(49,49,49,0.8);
+}
