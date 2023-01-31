@@ -1,19 +1,16 @@
 import React from 'react'
-import { Header, Navbar} from './components';
-import { Footer, Hero} from './containers';
+import {Header, Navbar, Footer, Grid, Hero} from './components/index';
+import LandingPage from './LandingPage';
+import Main from './Main';
+
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className = "App">
-      <div className = "gradient__bg">
-        <Header />
-        <Navbar />
-      </div>
-
-      <Hero />
-      <Footer />
-
-    </div>
+    <Routes>
+      <Route path="/" element={<LandingPage/>}/>
+      <Route path="/main" element={<Main/>}/>
+    </Routes>
   )
 }
 
