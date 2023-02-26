@@ -1,0 +1,15 @@
+.header-container{
+    max-width: 100%;
+    color: white;
+    background-color: #0165AC;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text{
+    font-weight: bolder;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
