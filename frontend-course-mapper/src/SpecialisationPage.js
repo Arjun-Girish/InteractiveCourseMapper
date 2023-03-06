@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, Navbar, Footer, Specialisation} from './components/index';
+import {Header, Navbar, Footer, Specialisation, SearchUnits} from './components/index';
 import {Route,Link} from 'react-router-dom'
 
 const SpecialisationPage = () => {
@@ -7,7 +7,7 @@ const SpecialisationPage = () => {
     <div className = "specialisation-page">
         <Header />
         <Navbar />
-        <Specialisation />
+        <SearchUnits />
         <Footer />
       </div>
 

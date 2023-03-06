@@ -10,7 +10,6 @@ const UnitSearchPage = () => {
         <SearchUnits />
         <Footer />
       </div>
-
   )
 }
 

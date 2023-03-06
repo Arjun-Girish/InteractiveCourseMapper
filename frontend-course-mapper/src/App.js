@@ -2,10 +2,11 @@ import React from 'react'
 import {Header, Navbar, Footer, Grid, Hero, SearchUnits} from './components/index';
 import LandingPage from './LandingPage';
 import Main from './Main';
-import UnitSearchPage from './UnitSearchPage';
+import UnitSwap from './components/unit-swap/UnitSwap';
 
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import SpecialisationPage from './SpecialisationPage';
+import UnitSearchPage from './UnitSearchPage';
 
 const App = () => {
   return (
@@ -14,8 +15,6 @@ const App = () => {
       <Route path="/main" element={<Main/>}/>
       <Route path="/unitsearchpage" element={<UnitSearchPage/>}/>
       <Route path="/specialisationpage" element={<SpecialisationPage/>}/>
-
-
     </Routes>
   )
 }
