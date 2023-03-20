@@ -1,0 +1,41 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: column wrap;
+  width: 1000px;
+  padding: 100px;
+}
+
+.characters {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.characters li {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  margin: 1em;
+  font-weight: bolder;
+}
+
+.characters li:hover{
+  border: 1px solid black;
+}
+
